@@ -1,0 +1,22 @@
+.light-theme {
+  --Toggle: hsl(230, 22%, 74%); /* Toggle */
+
+  --White: hsl(0, 0%, 100%); /* Background */
+  --Very-Pale-Blue: hsl(225, 100%, 98%); /* Top Background Pattern */
+  --Light-Grayish-Blue: hsl(227, 47%, 96%); /* Card Background */
+  --Dark-Grayish-Blue: hsl(228, 12%, 44%); /* Text Color */
+  --Very-Dark-Blue: hsl(230, 17%, 14%); /* Text White*/
+}
+.dark-theme {
+  --Toggle: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  ); /* Toggle */
+
+  --Very-Dark-Blue-Bg: hsl(230, 17%, 14%); /* Background */
+  --Very-Dark-Blue: hsl(232, 19%, 15%); /* Top Background Pattern */
+  --Dark-Desaturated-Blue: hsl(228, 28%, 20%); /* Card Background */
+  --Desaturated-Blue: hsl(228, 34%, 66%); /* Text Color */
+  --White: hsl(0, 0%, 100%); /* Text White*/
+}

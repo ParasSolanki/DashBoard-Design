@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import "variables.css";
+
+/* ---------------------------------------------------------------- */
+/* CSS Variables */
+/* ---------------------------------------------------------------- */
+:root {
+  --Lime-Green: hsl(163, 72%, 41%);
+  --Bright-Red: hsl(356, 69%, 56%);
+
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+  --Instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+
+  --YouTube: hsl(348, 97%, 39%);
+  --black: black;
+
+  --font-family: "Inter", sans-serif;
+  --font-small: 14px;
+
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1140px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Global CSS Styling... */
+/* ---------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: var(--font-family);
+  background-color: var(--White);
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.container {
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid {
+  display: grid;
+  grid-gap: 25px 25px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* ---------------------------------------------------------------- */
+/* Global Styling Classes... */
+/* ---------------------------------------------------------------- */
+
+.jc-between {
+  justify-content: space-between !important;
+}
+.jc-center {
+  justify-content: center !important;
+}
+.ai-center {
+  align-items: center !important;
+}
+.ai-end {
+  align-items: flex-end !important;
+}
+
+/* ---------------------------------------------------------------- */
+.text-center {
+  text-align: center !important;
+}
+.text-success {
+  color: var(--Lime-Green) !important;
+}
+.text-danger {
+  color: var(--Bright-Red) !important;
+}
+
+/* ---------------------------------------------------------------- */
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+/* ---------------------------------------------------------------- */
+.font-weight-700 {
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------------------- */
+.border-unset {
+  border-radius: unset !important;
+}
