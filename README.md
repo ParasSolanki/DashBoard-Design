@@ -5,7 +5,7 @@
 <h2>View Page</h2>
 <p>To view the website, use the link below</p>
 <ul>
-    <li><a href="https://parassolanki.github.io/DashBoard-Design/" target="_blank">View Project</li>
+    <li><a href="https://parassolanki.github.io/DashBoard-Design/" target="_blank">View Project</a></li>
     <li>With Responsive Design.</li>
     <li>You can change the theme of the design by clicking dark mode button.</li>
 </ul>
