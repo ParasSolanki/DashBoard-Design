@@ -1,4 +1,4 @@
-#### Frontend Mentor - Social Media Dashboard With Theme Changer
+<h1>Frontend Mentor - Social Media Dashboard With Theme Changer</h1>
 
 <p>This is Challenge From <a href="https://www.frontendmentor.io/">Frontend Mentor</a>. The output is as close as possible to design.</p>
 
@@ -10,16 +10,16 @@
     <li>You can change the theme of the design by clicking dark mode button.</li>
 </ul>
 
-#### Design Images
+<h1>Design Images</h1>
 
 <table>
     <tr>
         <th>Desktop Design With Light Mode</th>
-        <th>Desktop Design With Light Mode</th>
+        <th>Desktop Design With Dark Mode</th>
     </tr>
     <tr>
         <td><img src="images/Desktop_design_light_mode.png" alt="Desktop Design Light Mode" width="550px" height="auto"></td>
-        <td><img src="images/Desktop_design_light_mode.png" alt="Desktop Design Light Mode" width="550px" height="auto"></td>
+        <td><img src="images/Desktop_design_dark_mode.png" alt="Desktop Design Dark Mode" width="550px" height="auto"></td>
     </tr>
 </tr>
 </table>
